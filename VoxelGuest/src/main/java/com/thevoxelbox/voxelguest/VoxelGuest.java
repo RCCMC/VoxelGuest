@@ -38,7 +38,6 @@ import com.thevoxelbox.voxelguest.modules.Module;
 import com.thevoxelbox.voxelguest.modules.ModuleManager;
 import com.thevoxelbox.voxelguest.players.GroupManager;
 import com.thevoxelbox.voxelguest.players.GuestPlayer;
-
 import com.thevoxelbox.voxelguest.util.Configuration;
 import com.thevoxelbox.voxelguest.util.Formatter;
 import java.io.File;
@@ -280,14 +279,14 @@ public class VoxelGuest extends JavaPlugin {
         }
         
         getConfigData().setString("reset", "no");
-        log("==========================================");
-        log("* VOXELGUEST 4");
-        log("*");
-        log("* The premiere server adminstration suite");
-        log("*");
-        log("* Built by: psanker & VoxelPlugineering");
-        log("* Licensed by the BSD License - 2012");
-        log("==========================================");
+        log("|==========================================|");
+        log("|* VOXELGUEST 4                            |");
+        log("|*                                         |");
+        log("|* The premiere server adminstration suite |");
+        log("|*                                         |");
+        log("|* Built by: psanker & VoxelPlugineering   |");
+        log("|* Licensed by the BSD License - 2012      |");
+        log("|==========================================|");
         log("Factory settings loaded");
     }
     
